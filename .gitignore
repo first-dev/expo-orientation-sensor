@@ -102,3 +102,12 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Typescript build
+lib/
+
+# Local npm pack
+.local-pack/
+
+# VSCode
+.vscode/

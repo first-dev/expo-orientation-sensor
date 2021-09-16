@@ -1,0 +1,53 @@
+{
+  "name": "expo-orientation-sensor",
+  "version": "1.0.0",
+  "description": "Virtual Orientation sensor",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "tslint -p tsconfig.json",
+    "prepare": "npm run build",
+    "preversion": "npm run lint",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/first-dev/expo-orientation-sensor.git"
+  },
+  "keywords": [
+    "expo",
+    "react native",
+    "sensor",
+    "orientation",
+    "rotation",
+    "position",
+    "angle",
+    "euler"
+  ],
+  "author": "First Dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/first-dev/expo-orientation-sensor/issues"
+  },
+  "homepage": "https://github.com/first-dev/expo-orientation-sensor#readme",
+  "dependencies": {
+    "ahrs": "^1.2.3",
+    "expo-sensors": "^10.2.2",
+    "react-native-get-random-values": "^1.7.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/uuid": "^8.3.1",
+    "prettier": "^2.4.0",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^4.4.3"
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}
