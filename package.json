@@ -36,9 +36,7 @@
   "homepage": "https://github.com/first-dev/expo-orientation-sensor#readme",
   "dependencies": {
     "ahrs": "^1.2.3",
-    "expo-sensors": "^10.2.2",
-    "react-native-get-random-values": "^1.7.0",
-    "uuid": "^8.3.2"
+    "expo-sensors": "^10.2.2"
   },
   "devDependencies": {
     "@types/uuid": "^8.3.1",
