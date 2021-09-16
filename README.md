@@ -1,2 +1,2 @@
-# expo-position-sensor
-Virtual position sensor
+# expo-orientation-sensor
+Virtual orientation sensor
