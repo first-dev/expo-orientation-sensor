@@ -45,7 +45,7 @@ export default class Orientation {
     )
   }
 
-  private static getEulerAngles = (): EulerAngles => {
+  static getEulerAngles = (): EulerAngles => {
     const AHRSEulerAngles = Orientation.ahrs.getEulerAngles()
     return {
       // correct angles axis (pitch and roll swapped, yaw reversed)
