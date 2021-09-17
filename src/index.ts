@@ -1,3 +1,1 @@
-import Orientation from './Orientation'
-
-export { Orientation }
+export { default as Orientation, EulerAngles, Listener, Subscription } from './Orientation'
