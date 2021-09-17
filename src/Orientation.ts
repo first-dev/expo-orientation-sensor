@@ -108,7 +108,7 @@ export default class Orientation {
       Orientation.gyroscopeSubscriber = Gyroscope.addListener(measurement => {
         Orientation.gyroscopeMeasurement = measurement
         Orientation.updateAHRS()
-        Orientation.listeners.forEach(listener => listener(Orientation.eulerAngles))
+        Orientation.listeners.forEach(l => l(Orientation.eulerAngles))
       })
     }
 
