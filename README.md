@@ -55,7 +55,7 @@ This code should update state `angles` every time new measurements are available
 
 ### Note
 
-You don't have to keep track of all updates, you can call `Orientation.getEulerAngles` and it will return the latest angles measured.  
+You don't have to keep track of all updates, you can call `Orientation.eulerAngles` and it will return the latest angles measured.  
 Keep in mind that if there are no listeners added by `Orientation.addListener`, or all listeners have been removed The angles will **NOT** be updated
 
 ## Demo
