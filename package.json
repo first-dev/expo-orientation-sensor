@@ -29,7 +29,7 @@
     "euler"
   ],
   "author": "First Dev",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/first-dev/expo-orientation-sensor/issues"
   },
