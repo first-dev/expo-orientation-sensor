@@ -28,6 +28,7 @@ export default class Orientation {
 
   private static ahrs = new AHRS({
     sampleInterval: Orientation.sampleInterval,
+    doInitialisation: true,
   })
 
   private static updateAHRS() {

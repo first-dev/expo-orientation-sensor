@@ -35,7 +35,7 @@
   },
   "homepage": "https://github.com/first-dev/expo-orientation-sensor#readme",
   "dependencies": {
-    "ahrs": "^1.2.3",
+    "ahrs": "^1.3.0",
     "expo-sensors": "^10.2.2"
   },
   "devDependencies": {
